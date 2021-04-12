@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang=”en”>
-
+<html lang="en">
 <head>
     <title>Emily's Bullet Journal</title>
     <meta charset="UTF-8">
@@ -12,9 +11,7 @@
         <a href="#bottom">Go to Bottom of Page</a>
     </nav>
     <header>
-        <span>
-            <p>This is the start of the bullet journal</p>
-        </span>
+        <p>This is the <span>start</span>of the bullet journal.</p>
         <h1>Emily's Bullet Journal</h1>
         <details>
             <summary>This is my <b>bullet</b> journal!</summary>
@@ -38,7 +35,7 @@
             <h4>Daily Vent</h4>
             <p>tIRED</p>
             <h4>Interesting Pic</h4>
-            <img src="screenshots/beach.png" alt="Interesting Picture 3" width="500" height="600"></img>
+            <img src="screenshots/beach.png" alt="Interesting Picture 3" width="500" height="600">
             <p>Dog walking on hardwood</p>
             <audio controls>
                 <source src="audio/518166__elenalostale__dog-walks-on-wooden-floor.wav" type="audio/wav">
@@ -68,7 +65,7 @@
             <h4>Daily Vent</h4>
             <p>Not much to vent about today! Went to the beach and it was a good day.</p>
             <h4>Interesting Pic</h4>
-            <img src="screenshots/bao.png" alt="Interesting Picture 3" width="500" height="600"></img>
+            <img src="screenshots/bao.png" alt="Interesting Picture 3" width="500" height="600">
             <h4>Song of the day</h4>
             <p>Dolphin Noises</p>
             <audio controls>
@@ -97,7 +94,7 @@
             <h4>Daily Vent</h4>
             <p>Google Maps gave me the wrong directions at night on the freeway haha bye</p>
             <h4>Interesting Pic</h4>
-            <img src="screenshots/IMG_9118.PNG" alt="Interesting Picture 3" width="500" height="600"></img>
+            <img src="screenshots/IMG_9118.PNG" alt="Interesting Picture 3" width="500" height="600">
             <h4>Audio clip of the day</h4>
             <p>Screaming cat</p>
             <audio controls>
@@ -127,11 +124,13 @@
                         <option value="sourdough">Sourdough</option>
                     </select><br>
                     <label for="fruit">Choose your fruit from the list:</label>
-                    <input list="fruits" name="fruit">
-                    <datalist>
-                        <option value="Apple">
-                        <option value="Orange">
-                        <option value="Pear">
+                    <input list="fruits" name="fruit" id="fruit">    
+                    <datalist id="fruits">
+                      <option value="Edge">
+                      <option value="Firefox">
+                      <option value="Chrome">
+                      <option value="Opera">
+                      <option value="Safari">
                     </datalist>
                     <button>Submit</button>
                 </fieldset>
