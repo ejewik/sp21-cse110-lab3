@@ -7,10 +7,8 @@ assignees: ''
 
 ---
 
-**Section to style**
+**Aspect of Journal to style**
 
-**Color Scheme**
-
-**Flexbox/Grid**
+**Steps (optional)**
 
 **Extra Notes**
