@@ -1,0 +1,47 @@
+* {
+    color: #393c40;
+    font-family: Montserrat;
+}
+
+h1 {
+    color: #292b2e;
+    text-align: center;
+    font-size: 3em;
+}
+
+h2 {
+    color: #393c40;
+    font-size: 4vh;
+}
+
+h3 {
+    color: #44484d;
+    font-size: 1.5vw;
+}
+
+p {
+    color: black;
+    font-size: 20px;
+}
+
+a {
+    font-size: .5cm;
+    text-decoration: none;
+}
+
+body {
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    color: hsl(0, 0, 0);
+}
+
+a:hover {
+    color: lightpink;
+}
+
+a:active {
+    color: salmon;
+}
+
