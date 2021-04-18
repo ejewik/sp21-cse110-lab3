@@ -1,3 +1,16 @@
+@media only screen and (max-width: 600px) {
+    section {
+      min-width: 400px;
+    }
+
+  }
+
+  @media only screen and (min-width: 600px) {
+    section {
+      min-width: 500px;
+    }
+  }
+
 * {
     color: #393c40;
     font-family: Montserrat;
@@ -10,18 +23,18 @@ h1 {
 }
 
 h2 {
-    color: #393c40;
+    color: black;
     font-size: 4vh;
 }
 
 h3 {
-    color: #44484d;
+    color: black;
     font-size: 1.5vw;
 }
 
 p {
-    color: black;
-    font-size: 20px;
+    color: #44484d;
+    font-size: 5mm;
 }
 
 a {
@@ -31,10 +44,53 @@ a {
 
 body {
     color: rgb(0, 0, 0);
+    margin: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-right: 5em;
+    padding-left: 5em;
+}
+
+header {
+    display: grid;
+    grid-template-rows: 25% 50% auto;
+    grid-template-columns: auto;
+    justify-items: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    height: 75%;
+    
 }
 
 footer {
     color: hsl(0, 0, 0);
+}
+
+nav {
+    text-align: center;
+}
+
+section {
+    box-shadow: 5px 5px 15px 15px whitesmoke;
+    border-radius: 30px;
+    border-width: 20px;
+    border-color: white;
+    border-style: none;
+    padding: 5em;
+    margin: 2em;
+    width: 75%;
+    min-width: 10em;
+    max-width: 50em;
+    position: relative;
 }
 
 a:hover {
@@ -45,3 +101,11 @@ a:active {
     color: salmon;
 }
 
+#hide {
+    display: none;
+}
+
+#dispinline {
+    display: inline-block;
+    position: absolute;
+}
