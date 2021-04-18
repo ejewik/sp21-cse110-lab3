@@ -11,8 +11,9 @@
     }
   }
 
+
 * {
-    color: #393c40;
+    
     font-family: Montserrat;
 }
 
@@ -22,13 +23,16 @@ h1 {
     font-size: 3em;
 }
 
-h2 {
+h2, h3 {
+    text-align: left;
     color: black;
+}
+
+h2 {
     font-size: 4vh;
 }
 
 h3 {
-    color: black;
     font-size: 1.5vw;
 }
 
@@ -92,6 +96,39 @@ section {
     max-width: 50em;
     position: relative;
     background-color: white;
+}
+
+/* CSS combinators */
+
+a[title="go to bottom of page"] {
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+
+header > p {
+    color: darkgrey;
+}
+
+li + li {
+    color: navy;
+}
+
+ol ~ ol {
+    color: navy;
+}
+
+.regularText {
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+ol.regularText {
+    background-color: lightgrey;
+}
+
+section p {
+    font-family: Arial;
+    color: grey;
 }
 
 a:hover {
