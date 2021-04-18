@@ -91,6 +91,7 @@ section {
     min-width: 10em;
     max-width: 50em;
     position: relative;
+    background-color: white;
 }
 
 a:hover {
@@ -108,4 +109,8 @@ a:active {
 #dispinline {
     display: inline-block;
     position: absolute;
+}
+
+fieldset {
+    background-color: lightgrey;
 }
