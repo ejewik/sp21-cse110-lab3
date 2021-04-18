@@ -9,11 +9,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
+    <style>
+        span {color: grey;}
+    </style>
 </head>
 
 <body>
     <nav>
-        <a href="#bottom">Go to Bottom of Page</a>
+        <a title="go to bottom of page" href="#bottom">Go to Bottom of Page</a>
     </nav>
     <header>
         <p>This is the <span>start</span> of the bullet journal.</p>
@@ -28,12 +31,12 @@
             <h2>Tuesday</h2>
             <h3><i>April 6th, 2021</i></h3>
             <h4>Highlights of the Day</h4>
-            <ul>
+            <ul class="regularText">
                 <li>Second day on my job</li>
                 <li>Some small errands</li>
             </ul>
             <h4>To-Do List</h4>
-            <ol>
+            <ol class="regularText">
                 <li>Bake cookies for friend's bday</li>
                 <li><strong>Meal prep for week</strong></li>
             </ol>
@@ -56,14 +59,14 @@
             <h2>Wednesday</h2>
             <h3><i>April 7th, 2021</i></h3>
             <h4>Highlights of the Day</h4>
-            <ul>
+            <ul class="regularText">
                 <li>Going to <em>Windandsea</em> Beach</li>
                 <li>Eating cute bao/sushi</li>
             </ul>
             <a
                 href="https://www.tripadvisor.com/Attraction_Review-g32578-d127015-Reviews-Windansea_Beach-La_Jolla_San_Diego_California.html">WindandSea</a>
             <h4>To-Do</h4>
-            <ol>
+            <ol class="regularText">
                 <li>Get ready to go to beach</li>
                 <li>Look at route to CVS for covid vaccine</li>
             </ol>
@@ -87,12 +90,12 @@
             <h2>Thursday</h2>
             <h3><i>April 8th, 2021</i></h3>
             <h4>Highlights of the Day</h4>
-            <ul>
+            <ul class="regularText">
                 <li>Going to get vaccinated</li>
                 <li>Eating at smashburger</li>
             </ul>
             <h4>To-Do List</h4>
-            <ol>
+            <ol class="regularText">
                 <li>Check route for vaccination site</li>
                 <li>Fill gas tank</li>
             </ol>
@@ -145,7 +148,7 @@
     <footer id="bottom">
         <hr>
         <div>
-            <p id="hide">This is the end of the bullet journal</p>
+            <p id="hide" class="regularText">This is the end of the bullet journal</p>
             <p id="dispinline">This is the end of the bullet journal</p>
         </div>
     </footer>
